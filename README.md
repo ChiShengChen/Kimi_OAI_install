@@ -147,14 +147,14 @@ Once accepted, your account is authorized to pull the weights via `transformers`
 | **GPT-OSS-120B**    | Inline Python via `pipeline` | May require nightly `transformers` |
 | **GPT-OSS-20B**     | Same as 120B, just swap name | Lower VRAM needs (~16 GB)     |
 
----
+<!-- --- -->
 
-## Optional: Service Deployment with vLLM
+<!-- ## Optional: Service Deployment with vLLM -->
 
-Expose an OpenAI-compatible HTTP API:
+<!-- Expose an OpenAI-compatible HTTP API: -->
 
-```bash
-pip install vllm --pre
-python3 -m vllm.entrypoints.openai.api_server \
-    --model moonshotai/Kimi-K2-Instruct \
-    --host 0.0.0.0 --port 8000
+<!-- ```bash -->
+<!-- pip install vllm --pre -->
+<!-- python3 -m vllm.entrypoints.openai.api_server \ -->
+<!--    --model moonshotai/Kimi-K2-Instruct \ -->
+<!--    --host 0.0.0.0 --port 8000 -->
