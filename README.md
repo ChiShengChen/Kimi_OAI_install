@@ -124,7 +124,7 @@ Model on HuggingFace: [GPT-OSS-120B](https://huggingface.co/openai/gpt-oss-120b)
 
     pipe = pipeline(
         "text-generation",
-        model="openai/gpt-oss-120b",
+        model="openai/gpt-oss-120b", # if want 20b, model="openai/gpt-oss-20b",
         torch_dtype="auto",
         device_map="auto",
     )
