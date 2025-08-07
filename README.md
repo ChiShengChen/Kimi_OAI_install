@@ -12,8 +12,7 @@ This README walks you through the steps to download, install, and run the **Kimi
 4. [Installing Kimi-K2-Instruct](#installing-kimi-k2-instruct)  
 5. [Installing GPT-OSS Models](#installing-gpt-oss-models)  
 6. [Quick Start Examples](#quick-start-examples)  
-7. [Optional: Service Deployment with vLLM](#optional-service-deployment-with-vllm)  
-8. [Troubleshooting](#troubleshooting)  
+
 
 ---
 
