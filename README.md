@@ -65,7 +65,8 @@ Once accepted, your account is authorized to pull the weights via `transformers`
 
 ---
 
-## Installing Kimi-K2-Instruct
+## Installing Kimi-K2-Instruct  
+Model on HuggingFace: [Kimi-K2-Instruct](https://huggingface.co/moonshotai/Kimi-K2-Instruct)  
 
 1. **Log in via CLI** (to cache your token):  
     ```bash
@@ -105,6 +106,8 @@ Once accepted, your account is authorized to pull the weights via `transformers`
 ---
 
 ## Installing GPT-OSS Models
+Model on HuggingFace: [GPT-OSS-20B](https://huggingface.co/openai/gpt-oss-20b)  
+Model on HuggingFace: [GPT-OSS-120B](https://huggingface.co/openai/gpt-oss-120b)  
 
 1. **(Optional) Upgrade Transformers**  
     If you see `KeyError: 'gpt_oss'`, install the latest mainline:  
