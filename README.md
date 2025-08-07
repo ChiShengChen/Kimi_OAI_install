@@ -117,7 +117,7 @@ Model on HuggingFace: [GPT-OSS-120B](https://huggingface.co/openai/gpt-oss-120b)
 <!--    ```bash -->
 <!--    pip uninstall -y transformers tokenizers -->
 <!--    pip install git+https://github.com/huggingface/transformers.git -->
-<!--    ```
+<!--    ``` -->
 
 1. **Run inference via Transformers**  `oai_oss.py`   
     ```python
