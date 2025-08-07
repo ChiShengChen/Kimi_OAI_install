@@ -112,14 +112,14 @@ Model on HuggingFace: [Kimi-K2-Instruct](https://huggingface.co/moonshotai/Kimi-
 Model on HuggingFace: [GPT-OSS-20B](https://huggingface.co/openai/gpt-oss-20b)  
 Model on HuggingFace: [GPT-OSS-120B](https://huggingface.co/openai/gpt-oss-120b)  
 
-1. **(Optional) Upgrade Transformers**  
-    If you see `KeyError: 'gpt_oss'`, install the latest mainline:  
-    ```bash
-    pip uninstall -y transformers tokenizers
-    pip install git+https://github.com/huggingface/transformers.git
-    ```
+<!--0. **(Optional) Upgrade Transformers**  -->
+<!--    If you see `KeyError: 'gpt_oss'`, install the latest mainline:  -->
+<!--    ```bash -->
+<!--    pip uninstall -y transformers tokenizers -->
+<!--    pip install git+https://github.com/huggingface/transformers.git -->
+<!--    ```
 
-2. **Run inference via Transformers**  `oai_oss.py`   
+1. **Run inference via Transformers**  `oai_oss.py`   
     ```python
     from transformers import pipeline
 
@@ -133,7 +133,7 @@ Model on HuggingFace: [GPT-OSS-120B](https://huggingface.co/openai/gpt-oss-120b)
     print(result[0]["generated_text"])
     ```
 
-3. **(Alternatively) Inference via vLLM**  
+2. **(Alternatively) Inference via vLLM**  
     ```bash
     pip install vllm --pre
     ```
