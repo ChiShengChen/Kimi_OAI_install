@@ -37,7 +37,10 @@ Many community models require you to **Accept Model License** before downloading
 2. Click **“Accept terms”** or **“I agree to the model license”**.  
 3. Log in with your Hugging Face account if prompted.  
 
-Once accepted, your account is authorized to pull the weights via `transformers` or `git clone`.
+Once accepted, your account is authorized to pull the weights via `transformers` or `git clone`.  
+
+You can find more detail in the tutorial:  
+https://huggingface.co/blog/proflead/hugging-face-tutorial 
 
 ---
 
