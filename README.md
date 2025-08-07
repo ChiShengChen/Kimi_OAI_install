@@ -131,16 +131,19 @@ Model on HuggingFace: [GPT-OSS-120B](https://huggingface.co/openai/gpt-oss-120b)
     result = pipe("Briefly describe LLM quantization.", max_new_tokens=100)
     print(result[0]["generated_text"])
     ```
-
-2. **(Alternatively) Inference via vLLM**  
     ```bash
-    pip install vllm --pre
+    python oai_oss.py
     ```
-    ```python
-    from vllm import LLM
-    engine = LLM.from_pretrained("openai/gpt-oss-120b")
-    print(engine.generate("Hello, world!"))
-    ```
+
+<!--2. **(Alternatively) Inference via vLLM**  -->
+<!--    ```bash -->
+<!--    pip install vllm --pre -->
+<!--    ``` -->
+<!--    ```python -->
+<!--    from vllm import LLM -->
+<!--    engine = LLM.from_pretrained("openai/gpt-oss-120b") -->
+<!--    print(engine.generate("Hello, world!")) -->
+<!--    ```  -->
 
 ---
 
