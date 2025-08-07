@@ -113,7 +113,7 @@ Once accepted, your account is authorized to pull the weights via `transformers`
     pip install git+https://github.com/huggingface/transformers.git
     ```
 
-2. **Run inference via Transformers**  
+2. **Run inference via Transformers**  `oai_oss.py`   
     ```python
     from transformers import pipeline
 
