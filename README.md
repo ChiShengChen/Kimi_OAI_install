@@ -152,7 +152,7 @@ Model on HuggingFace: [GPT-OSS-120B](https://huggingface.co/openai/gpt-oss-120b)
 | Model               | Command/Script               | Notes                         |
 |---------------------|------------------------------|-------------------------------|
 | **Kimi-K2-Instruct**| `python run_kimi.py`         | Uses `trust_remote_code` flag |
-| **GPT-OSS-120B**    | Inline Python via `pipeline` | May require nightly `transformers` |
+| **GPT-OSS-120B**    | `python oai_oss.py`  | May require nightly `transformers` |
 | **GPT-OSS-20B**     | Same as 120B, just swap name | Lower VRAM needs (~16 GB)     |
 
 <!-- --- -->
